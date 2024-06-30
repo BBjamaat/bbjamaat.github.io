@@ -21,6 +21,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/favicon.png" typeof="image/png" />
+      </head>
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased mx-auto w-full max-w-3xl max-md:px-4 max-md:max-w-full",
